@@ -1,0 +1,3 @@
+/// @description 
+zfloor = other.z;
+
