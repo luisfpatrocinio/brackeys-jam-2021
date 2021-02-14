@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Sistema",
-    "path": "folders/Objects/Sistema.yy",
+    "name": "Blocos",
+    "path": "folders/Objects/Cenário/Blocos.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_block_par",
