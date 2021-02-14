@@ -1,6 +1,7 @@
 /// @description 
 //if !instance_exists(target) exit;
 shake = approach(shake, 0, 0.20);
+
 //Control.i_x = shake*choose(1, -1);
 //Control.i_y = shake*choose(1, -1);
 
@@ -20,7 +21,9 @@ if keyboard_check_pressed(vk_pagedown) zoom_level+=0.1;
 
 zoom = smooth_approach(zoom, zoom_level, 0.2);
 
-camera_set_view_size(view_camera[0], global.cam_width*zoom, global.cam_height*zoom);
+camera_set_view_size(view_camera[0], 480*zoom, 270*zoom);
+global.cam_width = camera_get_view_width(view_camera[0]);
+global.cam_height = camera_get_view_height(view_camera[0]);
 
 global.view_x = x - global.cam_width/2;
 global.view_y = y - global.cam_height/2;
