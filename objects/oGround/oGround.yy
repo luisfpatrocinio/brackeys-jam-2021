@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_Tile_Grass",
-    "path": "sprites/spr_Tile_Grass/spr_Tile_Grass.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
