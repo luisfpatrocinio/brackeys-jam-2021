@@ -39,6 +39,13 @@ if (z <= zfloor) {
 }
 
 //Pular
-if (jumpKey && on_ground) {
-	zsp += jumpforce;	
+if (jumpKey) {
+	if (on_ground) {
+		zsp += jumpforce;	
+	} else {
+		if (my_bird != noone) {
+			my_bird.state = BirdState.coming;
+			
+		}
+	}
 }

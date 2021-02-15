@@ -19,3 +19,5 @@ draw_xscale = 1;
 draw_yscale = 1;
 
 grav_inc = 0.05;
+
+my_bird = instance_find(obj_bird, 0);
