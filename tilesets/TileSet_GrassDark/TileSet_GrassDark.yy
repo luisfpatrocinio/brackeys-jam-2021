@@ -1,5 +1,4 @@
 {
-  "name": "TileSet_GrassDark",
   "spriteId": {
     "name": "spr_Tile_GrassDark",
     "path": "sprites/spr_Tile_GrassDark/spr_Tile_GrassDark.yy",
@@ -28,8 +27,8 @@
         102,
         226,
         89,
-        0,
-        0,
+        165,
+        94,
         89,
         297,
         174,
@@ -37,7 +36,7 @@
         166,
         98,
         345,
-      ],"closed_edge":false,"resourceVersion":"1.0","name":"autotile_1","tags":[],"resourceType":"GMAutoTileSet",},
+      ],"closed_edge":false,"resourceVersion":"1.0","name":"autotile_GD","tags":[],"resourceType":"GMAutoTileSet",},
   ],
   "tileAnimationFrames": [],
   "tileAnimationSpeed": 15.0,
@@ -437,9 +436,10 @@
   },
   "parent": {
     "name": "Ground",
-    "path": "folders/Sprites/Objects/Ground.yy",
+    "path": "folders/Sprites/Objects/TileSet/Ground.yy",
   },
   "resourceVersion": "1.0",
+  "name": "TileSet_GrassDark",
   "tags": [],
   "resourceType": "GMTileSet",
 }

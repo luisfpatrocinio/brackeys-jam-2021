@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Ground",
-    "path": "folders/Sprites/Objects/Ground.yy",
+    "path": "folders/Sprites/Objects/TileSet/Ground.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Tile_GrassDark",
