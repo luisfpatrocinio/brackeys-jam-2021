@@ -5,7 +5,7 @@
 #macro WALL		-6
 
 instance_create_depth(0,0,0,Camera);
-instance_create_depth(room_width/2 - 50,room_height/2 - 50,depth,Player);
+instance_create_depth(CW * 8 + CW/2, CH * 8 + CH/2,depth,Player);
 
 width = room_width/CW;
 height = room_height/CH;
@@ -24,23 +24,6 @@ for (var _y = 0; _y < height -1; _y++) {
 		//Colocar paredes
 		if (grid[# _x, _y] == WALL) {
 			var bl = instance_create_depth(_x * CW, _y * CH, 0, obj_block_16);
-			
-			/*
-			var _color = 0;
-			if ((xx div 16) mod 2 == 0) {
-				if ((yy div 16) mod 2 == 0) {
-					_color = 1;
-				} else {
-					_color = 0;
-				}
-			} else {
-				if ((yy div 16) mod 2 == 0) {
-					_color = 0;
-				} else {
-					_color = 1;
-				}
-			}
-			*/
 			
 			if (_x mod 2 == 0) {
 				if (_y mod 2 == 0) {

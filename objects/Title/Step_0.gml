@@ -17,7 +17,7 @@ if (input_delay < 0) {
 	
 	if (jumpKey) {
 		confirmed = selected;	
-		confirmed_timer = room_speed;
+		confirmed_timer = 1;
 	}
 	
 } else {
