@@ -20,4 +20,10 @@ draw_yscale = 1;
 
 grav_inc = 0.05;
 
+input_delay = -1;
+moving = false;
+
+x_to = x;
+y_to = y;
+
 my_bird = instance_find(obj_bird, 0);

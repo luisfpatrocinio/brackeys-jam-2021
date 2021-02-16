@@ -14,7 +14,7 @@ switch (state) {
 	case BirdState.coming:
 		x = smooth_approach(x, Player.x, 0.4);
 		y = smooth_approach(y, Player.y-z, 0.4);
-		z = smooth_approach(z, Player.z, 0.4);
+		//z = smooth_approach(z, Player.z, 0.4);
 		if (x == Player.x && y == Player.y && z = Player.z) {
 			state = BirdState.carrying;	
 			fly_timer = room_speed*3;

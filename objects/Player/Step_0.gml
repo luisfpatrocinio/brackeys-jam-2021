@@ -7,20 +7,34 @@ event_inherited();
 get_input();
 
 //Movimentar
-//Pegar distância (comprimento do vetor)
-if (xaxis == 0) && (yaxis == 0){
-	len = approach(len, 0, fric);	
-}else{
-	len = approach(len, spd, acc);
-	//Direção
-	dir = point_direction(0, 0, xaxis, yaxis);
+if (input_delay < 0){
+	if (xaxis != 0) {
+		x = x_to;
+		y = y_to;
+		draw_xscale = 1.2; draw_yscale = 0.8;
+		move(xaxis, yaxis);
+		input_delay = INPUT_DELAY;
+		//x_to += CW * xaxis;	
+	}
+	if (yaxis != 0) {
+		x = x_to;
+		y = y_to;
+		move(xaxis, yaxis);
+		draw_xscale = 0.8; draw_yscale = 1.2;
+		input_delay = INPUT_DELAY;
+		//y_to += CH * yaxis;	
+	}
+}
+z += zsp;
+
+if (moving) {
+	x = smooth_approach(x, x_to, 0.4);
+	y = smooth_approach(y, y_to, 0.4);
+	if (x == x_to && y == y_to) {
+		moving = false;
+	}
 }
 
-//Atualizar variáveis das velocidades
-hsp = lengthdir_x(len, dir);
-vsp = lengthdir_y(len, dir);
-
-move(hsp, vsp);
 
 //Redefinir zfloor se não estiver sobre uma plataforma.
 if (!instance_place(x, y, o_block_par)) {

@@ -4,3 +4,5 @@ if (z <= zfloor) {
 } else {
 	on_ground = false;	
 }
+
+if (input_delay >= 0) input_delay--;
