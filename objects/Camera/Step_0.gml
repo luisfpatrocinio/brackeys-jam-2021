@@ -1,5 +1,6 @@
 /// @description 
 //if !instance_exists(target) exit;
+target = instance_find(Player, 0);
 shake = approach(shake, 0, 0.20);
 
 //Control.i_x = shake*choose(1, -1);
