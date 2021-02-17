@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_jail",
-    "path": "sprites/spr_jail/spr_jail.yy",
+    "name": "spr_MachineAtk",
+    "path": "sprites/spr_MachineAtk/spr_MachineAtk.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"parent":{"name":"obj_jail","path":"objects/obj_jail/obj_jail.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Animals",
-    "path": "folders/Objects/Animals.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_jail",
+  "name": "obj_Machine",
   "tags": [],
   "resourceType": "GMObject",
 }

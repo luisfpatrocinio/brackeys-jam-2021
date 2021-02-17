@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_jail",
-    "path": "sprites/spr_jail/spr_jail.yy",
+    "name": "spr_Card",
+    "path": "sprites/spr_Card/spr_Card.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"parent":{"name":"obj_jail","path":"objects/obj_jail/obj_jail.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"parent":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Animals",
-    "path": "folders/Objects/Animals.yy",
+    "name": "Action",
+    "path": "folders/Objects/Action.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_jail",
+  "name": "obj_card",
   "tags": [],
   "resourceType": "GMObject",
 }
