@@ -89,6 +89,7 @@ if (keyboard_check(vk_right))
 if (keyboard_check(vk_left))
 {
 	image_angle = 0
+	image_xscale = -1
 }
 
 

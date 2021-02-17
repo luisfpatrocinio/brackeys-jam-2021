@@ -4,6 +4,9 @@
 #macro FLOOR	-7
 #macro WALL		-6
 
+selected_action = "" //select action
+lock_card = 0
+
 instance_create_depth(0,0,0,Camera);
 instance_create_depth(CW * 8 + CW/2, CH * 8 + CH/2,depth,Player);
 
