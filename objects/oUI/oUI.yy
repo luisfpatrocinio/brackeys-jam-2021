@@ -1,12 +1,9 @@
 {
-  "spriteId": {
-    "name": "spr_jail",
-    "path": "sprites/spr_jail/spr_jail.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -21,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"parent":{"name":"obj_jail","path":"objects/obj_jail/obj_jail.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"oUI","path":"objects/oUI/oUI.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Animals",
-    "path": "folders/Objects/Animals.yy",
+    "name": "Managers",
+    "path": "folders/Objects/Managers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_jail",
+  "name": "oUI",
   "tags": [],
   "resourceType": "GMObject",
 }
