@@ -1,10 +1,18 @@
 /// @description 
 
 // Inherit the parent event
-event_inherited();
+event_inherited()
 
 //Atualizar variáveis de movimentação
-get_input();
+get_input()
+
+// Calculate Moviment
+var _move = rkey - lkey
+
+hsp = _move * spd
+
+vsp = vsp + zgrav
+
 
 //Movimentar
 if (input_delay < 0){
@@ -62,4 +70,75 @@ if (jumpKey) {
 			
 		}
 	}
+}
+
+//atk
+if (keyboard_check(vk_space)) {
+	
+}
+
+
+//Direcao
+
+if (keyboard_check(vk_right))
+{
+	image_angle = 0
+}
+
+
+if (keyboard_check(vk_left))
+{
+	image_angle = 0
+}
+
+
+if (keyboard_check(vk_up))
+{
+	image_angle = 90
+	motion_add(image_angle, 0.05)
+}
+
+if (keyboard_check(vk_down))
+{
+	image_angle = 270
+	motion_add(image_angle, 0.05)
+}
+
+if (keyboard_check(vk_space))
+{
+	var inst = instance_create_layer(x,y,"Instances", obj_atk_player)
+    inst.direction = image_angle
+}
+
+// animation
+//if(!place_meeting(x,y+1,oBlock))
+//{
+ 
+ //  sprite_index = sPlayerU
+//   image_speed = 0
+//   if ( vsp > 0 ) image_index = 1; else image_index = 0
+	
+//}	
+//else
+//{
+	//image_speed=1
+//	if ( hsp != 0 )
+//	{
+
+ //       sprite_index = sPlayerR
+
+//	}	
+//	else
+//	{
+
+ //       sprite_index = sPlayer
+//	}	
+	
+
+//}	
+
+if ( hsp != 0)	
+{
+image_xscale = sign(hsp);
+//image_yscale = sign(hsp);
 }

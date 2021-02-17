@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0fd7833d-04ea-4dfb-8584-e951a44b61e4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Girl1",
-    "path": "folders/Sprites/Characters/Girl1.yy",
+    "name": "Player",
+    "path": "folders/Sprites/Characters/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_player",

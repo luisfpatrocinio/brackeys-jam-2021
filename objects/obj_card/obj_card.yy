@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Atk_Player",
-    "path": "sprites/spr_Atk_Player/spr_Atk_Player.yy",
+    "name": "spr_Card",
+    "path": "sprites/spr_Card/spr_Card.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_atk_player","path":"objects/obj_atk_player/obj_atk_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Machine","path":"objects/obj_Machine/obj_Machine.yy",},"parent":{"name":"obj_atk_player","path":"objects/obj_atk_player/obj_atk_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"parent":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +30,7 @@
     "path": "folders/Objects/Action.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_atk_player",
+  "name": "obj_card",
   "tags": [],
   "resourceType": "GMObject",
 }

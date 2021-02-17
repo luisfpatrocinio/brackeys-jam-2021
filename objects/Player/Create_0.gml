@@ -15,6 +15,14 @@ zfloor = 0;		//Altura Z do piso embaixo do Player
 jumpforce = 3;	//Força do Pulo
 zgrav = 0.20;	//Gravidade no eixo Z
 
+lkey = 0
+rkey = 0
+dkey = 0
+ukey = 0
+atkkey = 0
+
+lock_card = 0
+
 draw_xscale = 1;
 draw_yscale = 1;
 
