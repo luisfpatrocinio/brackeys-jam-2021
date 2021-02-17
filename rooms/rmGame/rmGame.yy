@@ -16,6 +16,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Control","path":"objects/Control/Control.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":32.0,"resourceVersion":"1.0","name":"inst_4BDCA251","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Level","path":"objects/Level/Level.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":32.0,"resourceVersion":"1.0","name":"inst_2707BE00","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"LevelEditor","path":"objects/LevelEditor/LevelEditor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":80.0,"y":32.0,"resourceVersion":"1.0","name":"inst_2D77D79","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tset_forest","path":"tilesets/tset_forest/tset_forest.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":30,"SerialiseHeight":17,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -44,6 +45,7 @@
   "instanceCreationOrder": [
     {"name":"inst_4BDCA251","path":"rooms/rmGame/rmGame.yy",},
     {"name":"inst_2707BE00","path":"rooms/rmGame/rmGame.yy",},
+    {"name":"inst_2D77D79","path":"rooms/rmGame/rmGame.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -18,16 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Level","path":"objects/Level/Level.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"LevelEditor","path":"objects/LevelEditor/LevelEditor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":50,"eventType":6,"collisionObjectId":null,"parent":{"name":"LevelEditor","path":"objects/LevelEditor/LevelEditor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Sistema",
-    "path": "folders/Objects/Sistema.yy",
+    "name": "Level Editor",
+    "path": "folders/Objects/Level Editor.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Level",
+  "name": "LevelEditor",
   "tags": [],
   "resourceType": "GMObject",
 }
