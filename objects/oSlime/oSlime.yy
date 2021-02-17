@@ -31,8 +31,8 @@
     {"propertyId":{"name":"enemyHP","path":"objects/pEnemy_1/pEnemy_1.yy",},"objectId":{"name":"pEnemy_1","path":"objects/pEnemy_1/pEnemy_1.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Enemy.yy",
   },
   "resourceVersion": "1.0",
   "name": "oSlime",

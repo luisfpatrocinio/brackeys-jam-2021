@@ -112,7 +112,7 @@
     {"id":{"name":"TileSet_Itens","path":"tilesets/TileSet_Itens/TileSet_Itens.yy",},"order":1,},
     {"id":{"name":"tset_forest","path":"tilesets/tset_forest/tset_forest.yy",},"order":0,},
     {"id":{"name":"spr_block_16","path":"sprites/spr_block_16/spr_block_16.yy",},"order":0,},
-    {"id":{"name":"oSlime","path":"objects/oSlime/oSlime.yy",},"order":19,},
+    {"id":{"name":"oSlime","path":"objects/oSlime/oSlime.yy",},"order":1,},
     {"id":{"name":"spr_jail","path":"sprites/spr_jail/spr_jail.yy",},"order":6,},
     {"id":{"name":"spr_Player_Dead","path":"sprites/spr_Player_Dead/spr_Player_Dead.yy",},"order":1,},
     {"id":{"name":"sSlimeAttack","path":"sprites/sSlimeAttack/sSlimeAttack.yy",},"order":7,},
