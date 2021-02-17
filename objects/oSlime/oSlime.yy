@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "pEnemy",
-    "path": "objects/pEnemy/pEnemy.yy",
+    "name": "pEnemy_1",
+    "path": "objects/pEnemy_1/pEnemy_1.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,11 +28,11 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"enemyHP","path":"objects/pEnemy/pEnemy.yy",},"objectId":{"name":"pEnemy","path":"objects/pEnemy/pEnemy.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemyHP","path":"objects/pEnemy_1/pEnemy_1.yy",},"objectId":{"name":"pEnemy_1","path":"objects/pEnemy_1/pEnemy_1.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Objects/Enemy.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "oSlime",

@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c23713b5-c108-447d-9eac-5879ac31706f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Machine1",
-    "path": "folders/Sprites/Characters/Machine1.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sSlime",

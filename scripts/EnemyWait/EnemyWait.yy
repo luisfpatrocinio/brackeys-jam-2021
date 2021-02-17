@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "RPG",
+    "path": "folders/Scripts/RPG.yy",
   },
   "resourceVersion": "1.0",
   "name": "EnemyWait",
