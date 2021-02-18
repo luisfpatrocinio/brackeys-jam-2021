@@ -28,8 +28,10 @@ if (input_delay < 0){
 z += zsp;
 
 if (moving) {
-	x = smooth_approach(x, x_to, 0.4);
-	y = smooth_approach(y, y_to, 0.4);
+	x = approach(x, x_to, 2);
+	y = approach(y, y_to, 2);
+	if (x_to > x) facing = 1;
+	else if (x_to < x) facing = -1;
 	if (x == x_to && y == y_to) {
 		moving = false;
 	}
@@ -63,3 +65,20 @@ if (jumpKey) {
 		}
 	}
 }
+
+//Cuidar de sprites
+if (moving) {
+	sprite_index = sprWalk;
+	image_speed = 1;
+} else {
+	sprite_index = sprWalk;
+	image_index = 0;
+	image_speed = 0;	
+}
+
+if (hp <= 0) {
+	sprite_index = sprDeath;
+	image_speed = 0;
+	image_index = approach(image_index, image_number-1, 0.2);
+}
+

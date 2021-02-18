@@ -41,6 +41,7 @@
     {"id":{"name":"spr_block_center","path":"sprites/spr_block_center/spr_block_center.yy",},"order":1,},
     {"id":{"name":"spr_Lobo_Atk_D","path":"sprites/spr_Lobo_Atk_D/spr_Lobo_Atk_D.yy",},"order":1,},
     {"id":{"name":"spr_Tile_Rock_Wood","path":"sprites/spr_Tile_Rock_Wood/spr_Tile_Rock_Wood.yy",},"order":4,},
+    {"id":{"name":"spr_player_mask","path":"sprites/spr_player_mask/spr_player_mask.yy",},"order":20,},
     {"id":{"name":"obj_block_16","path":"objects/obj_block_16/obj_block_16.yy",},"order":1,},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},"order":0,},
     {"id":{"name":"spr_tileset_ext_2","path":"sprites/spr_tileset_ext_2/spr_tileset_ext_2.yy",},"order":3,},
