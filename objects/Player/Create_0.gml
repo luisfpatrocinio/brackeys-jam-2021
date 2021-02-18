@@ -27,6 +27,7 @@ moving = false;
 
 x_to = x;
 y_to = y;
+my_dir = 0;
 
 my_bird = instance_find(obj_bird, 0);
 

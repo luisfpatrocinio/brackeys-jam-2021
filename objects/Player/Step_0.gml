@@ -7,6 +7,13 @@ event_inherited();
 get_input();
 
 //Movimentar
+function UpdateFacing() {
+	my_dir = point_direction(0, 0, xaxis, yaxis);
+	if (xaxis != 0){
+		if (my_dir == clamp(my_dir, 90, 270)) facing = -1;
+		else facing = 1;
+	}
+}
 if (input_delay < 0){
 	if (xaxis != 0 && yaxis == 0) {
 		x = x_to;
@@ -14,6 +21,7 @@ if (input_delay < 0){
 		draw_xscale = 1.2; draw_yscale = 0.8;
 		move(xaxis, yaxis);
 		input_delay = INPUT_DELAY;
+		UpdateFacing();
 		//x_to += CW * xaxis;	
 	}
 	if (yaxis != 0 && xaxis == 0) {
@@ -22,18 +30,22 @@ if (input_delay < 0){
 		move(xaxis, yaxis);
 		draw_xscale = 0.8; draw_yscale = 1.2;
 		input_delay = INPUT_DELAY;
+		UpdateFacing();
 		//y_to += CH * yaxis;	
 	}
+	
 }
 z += zsp;
 
 if (moving) {
 	x = approach(x, x_to, 2);
 	y = approach(y, y_to, 2);
-	if (x_to > x) facing = 1;
-	else if (x_to < x) facing = -1;
+	//if (x_to > x) facing = 1;
+	//else if (x_to < x) facing = -1;
 	if (x == x_to && y == y_to) {
 		moving = false;
+	} else {
+		
 	}
 }
 
@@ -63,6 +75,14 @@ if (jumpKey) {
 			my_bird.state = BirdState.coming;
 			
 		}
+	}
+}
+
+if (actKey) {
+	if (!instance_exists(IntBox)) {
+		var _x = x + lengthdir_x(CW, my_dir);
+		var _y = y + lengthdir_y(CH, my_dir);
+		instance_create_depth(_x, _y, depth, IntBox);
 	}
 }
 

@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_solid",
+    "path": "sprites/spr_solid/spr_solid.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_nonstatic_par",
+    "path": "objects/o_nonstatic_par/o_nonstatic_par.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

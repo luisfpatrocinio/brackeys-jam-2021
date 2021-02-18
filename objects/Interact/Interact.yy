@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_jail",
-    "path": "sprites/spr_jail/spr_jail.yy",
+    "name": "spr_interact",
+    "path": "sprites/spr_interact/spr_interact.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Interact",
-    "path": "objects/Interact/Interact.yy",
+    "name": "o_gravity_par",
+    "path": "objects/o_gravity_par/o_gravity_par.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_jail","path":"objects/obj_jail/obj_jail.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"parent":{"name":"Interact","path":"objects/Interact/Interact.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Interagíveis.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_jail",
+  "name": "Interact",
   "tags": [],
   "resourceType": "GMObject",
 }
