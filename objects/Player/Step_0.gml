@@ -8,7 +8,7 @@ get_input();
 
 //Movimentar
 if (input_delay < 0){
-	if (xaxis != 0) {
+	if (xaxis != 0 && yaxis == 0) {
 		x = x_to;
 		y = y_to;
 		draw_xscale = 1.2; draw_yscale = 0.8;
@@ -16,7 +16,7 @@ if (input_delay < 0){
 		input_delay = INPUT_DELAY;
 		//x_to += CW * xaxis;	
 	}
-	if (yaxis != 0) {
+	if (yaxis != 0 && xaxis == 0) {
 		x = x_to;
 		y = y_to;
 		move(xaxis, yaxis);
