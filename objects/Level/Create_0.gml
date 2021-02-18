@@ -4,6 +4,10 @@
 #macro FLOOR	-7
 #macro WALL		-6
 
+if (global.level_editor) {
+	instance_create_depth(0,0,0,LevelEditor);	
+}
+
 instance_create_depth(0,0,0,Camera);
 instance_create_depth(CW * 8 + CW/2, CH * 8 + CH/2,depth,Player);
 

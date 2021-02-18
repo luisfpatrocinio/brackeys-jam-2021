@@ -6,7 +6,6 @@ sprDown = 0;
 
 
 function AutoTile() {
-	show_debug_message("Autotile Iniciado");
 	var _up		= (place_meeting(x,		y-CH/2, o_block_par));
 	var _left	= (place_meeting(x-CW/2,	y, o_block_par));
 	var _right	= (place_meeting(x+CW/2,	y, o_block_par));

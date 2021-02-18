@@ -10,6 +10,7 @@ function get_input() {
 	uKey = keyboard_check(vk_up);
 
 	jumpKey	= (keyboard_check_pressed(ord("Z")))
+	actKey = (keyboard_check_pressed(vk_space));
 	//specialKey	= get_input_state(playerNo, input_action.actionB, state_type.pressed);
 
 	xaxis = (rKey - lKey);

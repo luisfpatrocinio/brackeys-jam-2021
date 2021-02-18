@@ -5,8 +5,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_nonstatic_par",
-    "path": "objects/o_nonstatic_par/o_nonstatic_par.yy",
+    "name": "Solid",
+    "path": "objects/Solid/Solid.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
