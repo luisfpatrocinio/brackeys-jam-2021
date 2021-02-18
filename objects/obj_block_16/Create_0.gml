@@ -14,23 +14,36 @@ function AutoTile() {
 
 	//Não tem em baixo:
 	if (!_down){
-		show_debug_message("Nao tem baixo");
 		if (_left && _right) {
 			sprUp = 2; sprDown = 11;
 		}
 
 		if (!_left && _right) {
-			sprUp = 1; sprDown = 9;
+			sprUp = 1; sprDown = 10;
 		}
 
 		if (_left && !_right) {
-			sprUp = 3; sprDown = 10;
+			sprUp = 3; sprDown = 12;
 		}
 	}
 	
-	if (_down) {
+	if (_down && !_up) {
 		if (_left && _right) {
-			sprUp = 5; 
+			sprUp = 7; 
+		}
+
+		if (!_left && _right) {
+			sprUp = 6; 
+		}
+
+		if (_left && !_right) {
+			sprUp = 8; 
+		}
+	}
+	
+	if (_down && _up) {
+		if (_left && _right) {
+			sprUp = 0; 
 		}
 
 		if (!_left && _right) {
@@ -38,7 +51,7 @@ function AutoTile() {
 		}
 
 		if (_left && !_right) {
-			sprUp = 6; 
+			sprUp = 5; 
 		}
 	}
 }
