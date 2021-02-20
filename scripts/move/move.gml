@@ -9,7 +9,9 @@ function move(argument0, argument1) {
 	var _obj_solido = false;
 	if (inst != noone) {
 		if (object_is_ancestor(inst.object_index, o_gravity_par)) {
-			_obj_solido = true;
+			if (inst.block){
+				_obj_solido = true;
+			}
 		}
 	}
 	

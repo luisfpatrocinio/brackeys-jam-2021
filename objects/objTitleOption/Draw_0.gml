@@ -5,9 +5,6 @@ draw_set_font(fnt_menu);
 var _h = string_height(txt);
 var _w = string_width(txt);
 
-//var _back_col = highlight ? c_white : c_black;
-//var _txt_col = highlight ? c_black : c_white;
-
 var _back_col = highlight ? c_black : c_white;
 var _txt_col = highlight ? c_white : c_black;
 

@@ -7,8 +7,10 @@ shake = approach(shake, 0, 0.20);
 //Control.i_y = shake*choose(1, -1);
 
 if instance_exists(target){
-	x = target.x + shake*choose(1, -1);
-	y = target.y + shake*choose(1, -1);
+	var new_x = target.x + shake*choose(1, -1);
+	var new_y = target.y + shake*choose(1, -1);
+	x = smooth_approach(x, new_x, 0.2);
+	y = smooth_approach(y, new_y, 0.2);
 }else{
 	x = room_width/2 + shake*choose(1, -1);
 	y = room_height/2 + shake*choose(1, -1);

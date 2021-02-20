@@ -1,4 +1,6 @@
 /// @description 
+event_inherited();
+
 z = 0;
 zsp = 0;
 zfloor = 0;
