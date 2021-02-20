@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Animals",
-    "path": "folders/Sprites/Animals.yy",
+    "path": "folders/Sprites/Obsoleto/Animals.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bird_locked",

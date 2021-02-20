@@ -77,7 +77,7 @@
   ],
   "parent": {
     "name": "Atk",
-    "path": "folders/Sprites/Animals/Lobo/Atk.yy",
+    "path": "folders/Sprites/Obsoleto/Animals/Lobo/Atk.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Lobo_Atk",

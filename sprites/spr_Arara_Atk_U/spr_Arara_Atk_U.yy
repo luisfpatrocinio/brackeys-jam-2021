@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Atk",
-    "path": "folders/Sprites/Animals/Arara/Atk.yy",
+    "path": "folders/Sprites/Obsoleto/Animals/Arara/Atk.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Arara_Atk_U",

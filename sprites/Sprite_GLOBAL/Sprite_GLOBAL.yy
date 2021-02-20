@@ -449,7 +449,7 @@
   ],
   "parent": {
     "name": "Lobo",
-    "path": "folders/Sprites/Animals/Lobo.yy",
+    "path": "folders/Sprites/Obsoleto/Animals/Lobo.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite_GLOBAL",

@@ -77,7 +77,7 @@
   ],
   "parent": {
     "name": "Normal",
-    "path": "folders/Sprites/Animals/Lobo/Normal.yy",
+    "path": "folders/Sprites/Obsoleto/Animals/Lobo/Normal.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Lobo_D",

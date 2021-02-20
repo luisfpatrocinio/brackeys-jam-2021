@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Normal",
-    "path": "folders/Sprites/Animals/Arara/Normal.yy",
+    "path": "folders/Sprites/Obsoleto/Animals/Arara/Normal.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Arara_D",

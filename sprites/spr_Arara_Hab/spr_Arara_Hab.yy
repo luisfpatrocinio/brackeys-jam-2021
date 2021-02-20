@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Hab",
-    "path": "folders/Sprites/Animals/Arara/Hab.yy",
+    "path": "folders/Sprites/Obsoleto/Animals/Arara/Hab.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Arara_Hab",
